@@ -1,8 +1,6 @@
 Reproducible Research - Coursera Peer Assessment 1
 ========================================================
-```{r}
-setwd(path.expand("/Users/julianepiecha/Desktop/DESKTOP/COURSES/DATA_SCIENCE/5_Reproducible/Peer_Assessment_1/"))
-```
+
 
 This is an R markdown file for Coursera Reproducible Research Peer Assessment 1.
 
@@ -10,7 +8,7 @@ This is an R markdown file for Coursera Reproducible Research Peer Assessment 1.
 
 ### 1.Load the data
 ```{r, echo = TRUE} 
-data <- read.csv("/Users/julianepiecha/Desktop/DESKTOP/COURSES/DATA_SCIENCE/5_Reproducible/Peer_Assessment_1/activity.csv", stringsAsFactors = FALSE)
+data <- read.csv("activity.csv", stringsAsFactors = FALSE)
 ```
 
 ### 2. Process/transform the data into a format suitable for your analysis
